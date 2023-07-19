@@ -1,0 +1,117 @@
+/* Estilos generales */
+
+body {  
+    /* Fuente y colores del cuerpo del documento */
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 150, 163);
+    color: #fff;
+  }
+  
+  h1, h2, h3, h4 {
+    /* Colores de los encabezados */
+    color: #fff;
+  }
+
+  
+  a {
+    /* Estilos de los enlaces */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  ul {
+    /* Estilos de las listas */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos del encabezado */
+  
+  header {
+    background-color: rgb(177, 150, 163);
+    padding: 20px;
+    display: flex
+  }
+
+  .header-logo {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .logo-container {
+    display: flex;
+    width: 50%;
+  }
+
+  .nav-container {
+    width: 50%;
+    padding-top: 1rem;
+  }
+
+  .header-ul {
+    display: flex;
+    float: right;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  /* Estilos del banner */
+  
+  #banner {
+    background-color: rgb(0, 116, 179);
+    padding: 40px;
+    text-align: center;
+    line-height: 0.2;
+  }
+  #banner .slogan {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 0.5;
+}
+  
+  /* Estilos de los productos */
+  
+  #productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .producto {
+    background-color: #333;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    flex-basis: calc(33.33% - 40px);
+  }
+  
+  .producto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos del pie de página */
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  

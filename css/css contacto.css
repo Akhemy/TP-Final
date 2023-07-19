@@ -1,0 +1,70 @@
+/* Estilos del formulario de contacto */
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#contacto {
+    text-align: center;
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.contact-info img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
+
+/* Estilos del pie de página */
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
